@@ -92,7 +92,7 @@ $$J(w, b) = - \frac{1}{m} \sum_{i=1}^{m} [ y^{(i)} \log(\hat{y}^{(i)}) + (1 - y^
 
 But the real challenge was the **Backpropagation**. Calculating the derivatives manually:
 
-$$\frac{\partial J}{\partial w}=\frac{1}{m} X^T (\hat{y} - y)+\frac{\lambda}{m} \operatorname{sgn}(w)$$
+$$\frac{\partial J}{\partial w}=\frac{1}{m} X^T (\hat{y} - y)+\frac{\lambda}{m} \mathrm{sgn}(w)$$
 
 *(That last term is the L1 regularization derivative I added to handle feature selection).*
 
