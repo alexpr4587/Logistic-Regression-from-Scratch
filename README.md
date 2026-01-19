@@ -1,7 +1,3 @@
-Here is a `README.md` written with a passionate, developer-focused tone. It highlights the struggles (like the numerical stability/overflow issues) and the victories of building something from scratch.
-
----
-
 # Logistic Regression from Scratch
 
 ### No Scikit-Learn magic. Just NumPy, Math, and a bit of sweat.
