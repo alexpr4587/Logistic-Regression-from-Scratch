@@ -98,10 +98,4 @@ $$\frac{\partial J}{\partial w}=\frac{1}{m} X^T (\hat{y} - y)+\frac{\lambda}{m} 
 
 ---
 
-## 🤝 Credits & Inspiration
-
-This project was heavily inspired by the deep-dive tutorials from **0xHadyy**. I took the core concepts, refactored the code for modularity, added numerical stability fixes, and wrapped it into a reusable library format.
-
----
-
 **Feel free to fork this, break it, and fix it. That's the only way to learn.**
